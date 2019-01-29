@@ -1,0 +1,7 @@
+scripts/.ipynb_checkpoints/
+scripts/__pycache__/
+images/
+securitas-presentation.pptx
+data/original-data/
+data/nyc-polygons/boroughs-low-res-spatial/
+necessary_wheels/
