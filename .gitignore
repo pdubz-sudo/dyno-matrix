@@ -2,7 +2,7 @@
 __pychache__/
 scripts/.ipynb_checkpoints/
 scripts/__pycache__/
-images/
+pp-images/
 securitas-presentation.pptx
 data/original-data/
 data/nyc-polygons/boroughs-low-res-spatial/
