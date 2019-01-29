@@ -14,7 +14,7 @@ print('If a window graph comes up you must close it to continue.')
 print('This will take several minutes...')
 
 # Ingest pre-processed foursquare data
-file_path = r'D:\OneDrive\securitas-assignment\MASTER\data\cleaned_foursquare_df.pkl'
+file_path = r'C:\Users\DS\Desktop\dynamic-features\data\cleaned_foursquare_df.pkl'
 fs = pd.read_pickle(file_path)
 
 # There are 2547 3-hour time intervals that have at least regional datapoint in 
@@ -167,7 +167,7 @@ full_dynamic_df = pd.DataFrame(dynamic_features, columns=columns, index=index)
 ###############################################################################
 #### Prep Labels and find city to build model and predictions
 # Ingest pre-processed one-hot Grand Larceny theft labels.
-file_path = r'D:\OneDrive\securitas-assignment\MASTER\data\cleaned_neighborhood_theft_labels.pkl'
+file_path = r'C:\Users\DS\Desktop\dynamic-features\data\cleaned_neighborhood_theft_labels.pkl'
 theft_df = pd.read_pickle(file_path)
 
 # The author said the crime labels are binary so I make them binary.

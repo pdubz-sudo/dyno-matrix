@@ -5,3 +5,5 @@ securitas-presentation.pptx
 data/original-data/
 data/nyc-polygons/boroughs-low-res-spatial/
 necessary_wheels/
+scripts/dynamic-features-draft.ipynb
+tensorflow/.ipynb_checkpoints/
