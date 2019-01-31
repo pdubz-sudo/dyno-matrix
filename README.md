@@ -37,26 +37,16 @@ for the West Village neighborhood in NYC.
 
 ### Installation Instrutions
 GeoPandas is tricky to install on windows. This is the safest bet to installing and having the whole jupyter notebook script work.
-
-conda create --name env_name_here python=3.6 jupyter ipykernel numpy pandas==0.23.4
-
-download GDAL, Fiona, pyproj, rtree, shapely for python 3.6 version and proper windows bit https://www.lfd.uci.edu/~gohlke/pythonlibs/.
-Place them in a folder and cd into that folder.
-
-pip install all those wheels in that order.
-
-pip install GDAL-2.3.3-cp36-cp36m-win_amd_bit_here.whl
-
-pip install Fiona-1.8.4-cp36-cp36m-win_amd_bit_here.whl
-
-pip install pyproj-1.9.6-cp36-cp36m-win_amd_bit_here.whl
-
-pip install Rtree-0.8.3-cp36-cp36m-win_amd_bit_here.whl
-
-pip install Shapely-1.6.4.post1-cp36-cp36m-win_amd_bit_here.whl
-
-pip install geopandas
-
-conda install scikit-learn
-
-pip install matplotlib shapely pyshp descartes tensorflow
+ 
+    conda create --name env_name_here python=3.6 jupyter ipykernel numpy pandas==0.23.4
+    download GDAL, Fiona, pyproj, rtree, shapely for python 3.6 version and proper windows bit https://www.lfd.uci.edu/~gohlke/pythonlibs/.
+    Place them in a folder and cd into that folder.
+    pip install all those wheels in that order.
+    pip install GDAL-2.3.3-cp36-cp36m-win_amd_bit_here.whl
+    pip install Fiona-1.8.4-cp36-cp36m-win_amd_bit_here.whl
+    pip install pyproj-1.9.6-cp36-cp36m-win_amd_bit_here.whl
+    pip install Rtree-0.8.3-cp36-cp36m-win_amd_bit_here.whl
+    pip install Shapely-1.6.4.post1-cp36-cp36m-win_amd_bit_here.whl
+    pip install geopandas
+    conda install scikit-learn
+    pip install matplotlib shapely pyshp descartes tensorflow
