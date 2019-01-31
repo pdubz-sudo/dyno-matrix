@@ -7,16 +7,17 @@ matrix factorization, to a sparse dataset.
 
 I created a custom matrix factorization algorithm function which can be found in the matrix_factorization.py file in the scripts directory.
 
-Models
-1-layer fully connected Neural Network in TensorFlow
-Logistic Regression - sklearn
-SVM - sklearn
-Random Forest - sklearn
-
-I used the following data
+Data sources
 - FourSquare check-in data from Kaggle https://www.kaggle.com/chetanism/foursquare-nyc-and-tokyo-checkin-dataset
 - NYC GIS shapefiles https://geo.nyu.edu/catalog/nyu-2451-34563
 - NYPD complaint Data Historic https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
+
+
+Models
+- 1-layer fully connected Neural Network in TensorFlow
+- Logistic Regression - sklearn
+- SVM - sklearn
+- Random Forest - sklearn
 
 ### Quick wrap up of what I did
 I took FourSquare check-in and theft crime coordinates and placed them in NYC neighborhoods using GIS shapefiles.
@@ -34,7 +35,7 @@ Collaborative filtering improved AUC performace up to 5% after taking an after o
 for the West Village neighborhood in NYC. 
   
 
-Installation Instrutions
+### Installation Instrutions
 GeoPandas is tricky to install. This is the safest bet to installing and having the whole jupyter notebook script work.
 
 conda create --name env_name_here python=3.6 jupyter ipykernel numpy pandas==0.23.4
