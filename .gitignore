@@ -3,9 +3,9 @@ __pychache__/
 scripts/.ipynb_checkpoints/
 scripts/__pycache__/
 pp-images/
-securitas-presentation.pptx
+presentation.pptx
 data/original-data/
 data/nyc-polygons/boroughs-low-res-spatial/
 necessary_wheels/
-scripts/dynamic-features-draft.ipynb
+dynamic-features-draft.ipynb
 tensorflow/.ipynb_checkpoints/
