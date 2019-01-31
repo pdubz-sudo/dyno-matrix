@@ -21,18 +21,20 @@ Models
 
 ### Quick wrap up of what I did
 I took FourSquare check-in and theft crime coordinates and placed them in NYC neighborhoods using GIS shapefiles.
-Cleaned and pre-processed the data.
-Created dynamic features from the research paper. At first it is sparse.
-Apply collaborative filtering to turn the sparse matrix to a dynamic dense matrix.
-Compare sparse vs dynamic matrix performance in the 4 ML models.
-The whole process can be found in the dynamic-features-MASTER.ipynb notebook. The parameter settings in the
-notebook are the ones that performed the best.
-The script dynamic-features-MAIN.py runs the script with cleaned data files in pickle format. To test how the script 
-performs on other NYC neighborhoods, change the name of the neighborhood in the last function at the end of the script.
+The data was then cleaned and pre-processed;I found format errors and inconsistencies. At this point, the 
+data matrix is a sparse matrix. Created dynamic features from the research paper by applying collaborative filtering 
+to turn the sparse matrix to a dynamic dense matrix. Created training and test sets; crime is a rare event so the 
+training data was under-sampled which can lead to loss of important data. Lastly, compared sparse vs dynamic and 
+sparse standardized vs dynamic standardized dense matrix performance in the 4 ML models. 5-Kfold cross-validation of 
+the AUC was chosen as the evaluation metric. The whole process can be found in the dynamic-features-MASTER.ipynb 
+notebook. The parameter settings in the notebook are the ones that performed the best.
+The script dynamic-features-MAIN.py, in the script directory, executes with cleaned data files in pickle format. To 
+test how the script performs on other NYC neighborhoods, change the name of the neighborhood in the last function at 
+the end of the script.
 
 ### Results
-Collaborative filtering improved AUC performace up to 5% after taking an after of 14 runs of 5-kfold cross-validation 
-for the West Village neighborhood in NYC. 
+Collaborative filtering improved AUC performace up to 5% for both features, non-standardized and standardized, after 
+performing 14 runs of 5-kfold cross-validation for the West Village neighborhood in NYC. 
   
 
 ### Installation Instrutions
