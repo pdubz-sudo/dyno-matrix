@@ -26,7 +26,8 @@ data matrix is a sparse matrix. Created dynamic features from the research paper
 to turn the sparse matrix to a dynamic dense matrix. Created training and test sets; crime is a rare event so the 
 training data was under-sampled which can lead to loss of important data. Lastly, compared sparse vs dynamic and 
 sparse standardized vs dynamic standardized dense matrix performance in the 4 ML models. 5-Kfold cross-validation of 
-the AUC was chosen as the evaluation metric. The whole process can be found in the dynamic-features-MASTER.ipynb 
+the AUC was chosen as the evaluation metric. 
+The whole process can be found in the dynamic-features-MASTER.ipynb 
 notebook. The parameter settings in the notebook are the ones that performed the best.
 The script dynamic-features-MAIN.py, in the script directory, executes with cleaned data files in pickle format. To 
 test how the script performs on other NYC neighborhoods, change the name of the neighborhood in the last function at 
